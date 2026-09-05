@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #1a1a2e;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  color: #e94560;
+}
+
+.rooms {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.rooms button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #16213e;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.rooms button:hover {
+  background: #0f3460;
+  color: #ddd;
+}
+
+.rooms button.active {
+  background: #e94560;
+  color: #fff;
+  font-weight: bold;
+}
+
+#messages {
+  flex: 1;
+  min-height: 380px;
+  max-height: 55vh;
+  overflow-y: auto;
+  background: #16213e;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 12px;
+}
+
+.msg {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  background: #0f3460;
+  border-radius: 8px;
+}
+
+.msg .head {
+  font-size: 0.78rem;
+  color: #9ab;
+  margin-bottom: 3px;
+}
+
+.msg .head b {
+  color: #e94560;
+}
+
+.msg .body {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.empty {
+  color: #667;
+  text-align: center;
+  margin-top: 40px;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #16213e;
+  color: #eee;
+}
+
+input:focus {
+  outline: 2px solid #e94560;
+}
+
+#username {
+  width: 130px;
+}
+
+#message {
+  flex: 1;
+}
+
+form button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #e94560;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background: #ff5a77;
+}
+
+#rooms button.active, 
+#form button {
+    background-color: #C02643;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#rooms button {
+    color: #F8FAFC;
+}
+
+.msg .head b {
+    color: #FF8C66;
+}

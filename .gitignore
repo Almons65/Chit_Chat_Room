@@ -1,0 +1,12 @@
+target/
+dependency-reduced-pom.xml
+
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+.DS_Store
+Thumbs.db

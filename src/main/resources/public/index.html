@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chit-Chat Room</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>Chit-Chat Room</h1>
+
+    <div class="rooms" id="rooms"></div>
+
+    <div id="messages">
+      <div class="empty">Loading...</div>
+    </div>
+
+    <form id="form">
+      <input id="username" placeholder="Name" maxlength="30" required>
+      <input id="message" placeholder="Type a message..." maxlength="500" required autocomplete="off">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
