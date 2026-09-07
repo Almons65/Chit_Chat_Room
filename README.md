@@ -26,5 +26,3 @@ This project is fully containerized. You do not need to install Java or PostgreS
 4. To stop running the system:
     ```bash
     docker-compose down
-
-
